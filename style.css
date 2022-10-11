@@ -1,5 +1,11 @@
-    body {
-        margin: 100px;
-        /* background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/07/uzumaki-naruto.jpg); */
-        color:azure;
+   h1 {
+    background-color: darkcyan;
+    color: #ffffff;
+    border: 2px solid magenta;
+    border-radius:2%;
+    border-color: gold;
+    border-inline-color: solid black ;
+    text-align: center;
+    padding: 30px ;
+    margin: 20px;
     }
