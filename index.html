@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    
+    </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Shankar</title>
@@ -9,15 +12,70 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <!-- <script src='main.js'></script> -->
     <style>
-            body{background-color: darkcyan} 
-               p {text-align: center}  
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+    <style>
+            p{
+            background-image: url('https://ww&ust=1665637255838000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMixybn02foCFQAAAAAdAAAAABAE');
+            }
+            /* body{background-color: darkcyan}  */
+            p {text-align: center}  
+            
              
     </style>
 </head>
-<body>
-<h1  border="30px"  >Learn HTML with Shankar</h1>
-<img src="/Image/HTML-Introduction.jpg" alt="HTML image" width="1000" height="450" style="float:right;" />
-<p><a href="https://www.w3schools.com/html/html_intro.asp" title="Learn HTML with me click here"></a> <button> Click here</button> <p>
-<h1><a href="https://devdocs.io/html/" title="Learn HTML through Developer Documentation"><button>HTML Documentation</button> </a> </h1>
+<body>    
+
+        <h1  border="30px"  >Learn HTML with Shankar</h1>
+        <img src="/Image/HTML-Introduction.jpg" alt="HTML image" width="800" height="350" style="float:right;" />
+        <img src="Image/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+        <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+  
+        </map> 
+            <p><a href="https://www.w3schools.com/html/html_intro.asp" title="Learn HTML with me"><button> Click here</button> </a><p>
+            <h1><a href="https://devdocs.io/html/" title="Learn HTML through Developer Documentation"><button>HTML Documentation</button> </a> </h1>
+
+        <table>
+            <tr>
+              <th>table header</th>
+              <th>table row</th>
+              <th>Table data</th>
+            </tr>
+            <tr>
+              <td>th</td>
+              <td>tr</td>
+              <td>td</td>
+            </tr>
+            <tr>
+              <td>heading of the column</td>
+              <td>table row member</td>
+              <td>data of each cell</td>
+            </tr>
+          </table> 
+          <h3>unordered list</h3>
+          <ul style="list-style-type:circle;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+
 </body>
 </html>
