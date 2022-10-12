@@ -2,8 +2,21 @@
 <html>
 <head>
   <style>
-    
-    </style>
+    #myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+      .design{
+        background-color:honeydew;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 15px;
+      }  
+  </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Shankar</title>
@@ -39,7 +52,21 @@
     </style>
 </head>
 <body>    
+  <h1 id="myHeader">Basics of Html</h1>
 
+  <div 
+    class="design">
+    <h2>HTML </h2>
+    <p>It is a Mark-up Language</p>
+    <script>
+      function myfunction(){
+    document.getElementById("myHeader").style.fontSize = "25px";
+document.getElementById("myHeader").style.color = "red";
+document.getElementById("myHeader").style.backgroundColor = "yellow";
+      }</script>
+      <p id="myHeader">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+    </div>
         <h1  border="30px"  >Learn HTML with Shankar</h1>
         <img src="/Image/HTML-Introduction.jpg" alt="HTML image" width="800" height="350" style="float:right;" />
         <img src="Image/workplace.jpg" alt="Workplace" usemap="#workmap">
@@ -47,7 +74,7 @@
         <map name="workmap">
         <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
         <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-        <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+        <area shape="circle" coords="337,300,44" href="coffee.htm">
   
         </map> 
             <p><a href="https://www.w3schools.com/html/html_intro.asp" title="Learn HTML with me"><button> Click here</button> </a><p>
@@ -71,11 +98,15 @@
             </tr>
           </table> 
           <h3>unordered list</h3>
-          <ul style="list-style-type:circle;">
+          <ul type="A" style="list-style-type:circle;">
             <li>Coffee</li>
-            <li>Tea</li>
+            <li>Cappuccino</li>
             <li>Milk</li>
           </ul>
+          <h2>This is iframe</h2>
+          <iframe src="coffee.htm" width="500" height="500"></iframe>
+          
+          <p><a href="nav.htm" title="Navigation bar"><button> Nav Bar</button></a></p>
 
 </body>
 </html>
